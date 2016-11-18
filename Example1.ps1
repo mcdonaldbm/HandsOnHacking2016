@@ -7,3 +7,5 @@ Function Get-ComputerInformation
     # BIOS
     Get-WmiObject -class win32_BIOS
 }
+
+Get-ComputerInformation
